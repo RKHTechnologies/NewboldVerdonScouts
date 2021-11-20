@@ -1,5 +1,5 @@
 import GlobalStyle from './Shared/GlobalStyle';
-import { Routes, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Error404 from './Shared/Error404';
 import HeaderBar from './Shared/HeaderBar';
 import Home from './pages/Home';
@@ -17,17 +17,16 @@ function App() {
       <>
         <ScrollToTop />
         <HeaderBar stickyHeader />
-        <Routes>
-          <Route path={`${process.env.PUBLIC_URL}`} element={<Home />} />
-          {/* <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About} /> */}
-          <Route path={`${process.env.PUBLIC_URL}/beavers`} element={<Beavers />} />
-          <Route path={`${process.env.PUBLIC_URL}/cubs`} element={<Cubs />} />
-          <Route path={`${process.env.PUBLIC_URL}/scouts`} element={<Scouts />} />
-          <Route path={`${process.env.PUBLIC_URL}/explorers`} element={<Explorers />} />
-          <Route path={`${process.env.PUBLIC_URL}/ourCalendar`} element={<OurCalendar />} />
-          <Route path={`${process.env.PUBLIC_URL}/documents`} element={<Documents />} />
-          <Route element={<Error404 />} />
-        </Routes>
+        <Switch>
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route exact path={`${process.env.PUBLIC_URL}/beavers`} component={Beavers} />
+          <Route exact path={`${process.env.PUBLIC_URL}/cubs`} component={Cubs} />
+          <Route exact path={`${process.env.PUBLIC_URL}/scouts`} component={Scouts} />
+          <Route exact path={`${process.env.PUBLIC_URL}/explorers`} component={Explorers} />
+          <Route exact path={`${process.env.PUBLIC_URL}/ourCalendar`} component={OurCalendar} />
+          <Route exact path={`${process.env.PUBLIC_URL}/documents`} component={Documents} />
+          <Route component={Error404} />
+        </Switch>
       </>
       <GlobalStyle />
     </>

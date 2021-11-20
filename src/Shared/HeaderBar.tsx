@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../logo.svg';
 import styled from 'styled-components';
 import { colours, SharedSettings } from '../Shared/SharedStyles';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 interface IProps {
     stickyHeader?: boolean;
@@ -176,11 +176,11 @@ const BurgerContainer = styled.div`
 const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const navigate = useNavigate();
+    const history = useHistory();
 
     const handleNav = (link: string): void => {
         setMenuOpen(false);
-        navigate(`${process.env.PUBLIC_URL}${link}`);
+        history.push(`${process.env.PUBLIC_URL}${link}`);
     }
 
     const scoutShop = () => {
@@ -192,7 +192,7 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
     return (
         <HeaderNav stickyHeader={stickyHeader}>
             <HeaderNavContainer>
-                <Logo src={logo} alt="1st Newbold Verdon Scouts" onClick={() => handleNav("")} />
+                <Logo src={logo} alt="2nd 60th Leicester Scouts" onClick={() => handleNav("")} />
                 <BurgerContainer menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><Burger menuOpen={menuOpen} /></BurgerContainer>
                 <NavItemsRightContainer menuOpen={menuOpen}>
                     <HeaderButton onClick={() => handleNav("")}>Home</HeaderButton>

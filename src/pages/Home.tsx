@@ -4,7 +4,6 @@ import Hero from '../Shared/Hero';
 import { useMediaQuery } from 'react-responsive';
 import { SharedSettings, colours, PageBodyContainer } from '../Shared/SharedStyles';
 import skillsForLife from '../img/skillsForLife.png';
-import { useNavigate } from 'react-router-dom';
 import ScoutSection from '../Components/ScoutSection';
 import JumboCard from '../Shared/JumboCard';
 import Footer from '../Shared/Footer';

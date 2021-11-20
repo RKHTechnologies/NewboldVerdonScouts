@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { colours, Colour } from '../Shared/SharedStyles';
 import calendarIcon from '../img/Calendar.svg';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 const CalendarIcon = styled.div`
   width: 75px;
@@ -69,10 +69,10 @@ interface CalendarProps {
 }
 
 const CalendarLink: FC<IProps> = ({ border, primary, secondary, hover }: IProps) => {
-  const navigate = useNavigate();
+  const history = useHistory();
 
   return (
-    <Link border={border} primary={primary} secondary={secondary} hover={hover} onClick={() => navigate(`${process.env.PUBLIC_URL}/ourCalendar`)}>
+    <Link border={border} primary={primary} secondary={secondary} hover={hover} onClick={() => history.push(`${process.env.PUBLIC_URL}/ourCalendar`)}>
       What's on?<span> Click to view Our Calendar</span><CalendarIcon primary={primary} />
     </Link>
   );

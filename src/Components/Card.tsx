@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { ImagesDesktop, imageLib } from '../Shared/ImageLib';
 import { colours, Colour } from '../Shared/SharedStyles';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 interface IProps {
   image: imageLib;
@@ -74,11 +74,11 @@ const SecondaryText = styled.div`
 
 
 const Card: FC<IProps> = ({image, primary, secondary, url, accent}: IProps) => {
-  const navigate = useNavigate();
+  const history = useHistory();
   
   return (
     <>
-      <CardContainer image={image} accent={accent} onClick={() => navigate(`${process.env.PUBLIC_URL}${url}`)}>
+      <CardContainer image={image} accent={accent} onClick={() => history.push(`${process.env.PUBLIC_URL}${url}`)}>
         <PrimaryText>{primary}</PrimaryText>
         <SecondaryText>{secondary}</SecondaryText>
       </CardContainer>
