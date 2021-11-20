@@ -70,7 +70,7 @@ const Cubs: FC = () => {
               <GridItem>
                 <CubsIcon icon={faCompass} size="2x" />
                 <CubsTitle>Life Skills</CubsTitle>
-                <Description>At 2nd 60th we offer valuable life skills to all our young people, from cooking to first aid - and lots more</Description>
+                <Description>At 1st Newbold Verdon we offer valuable life skills to all our young people, from cooking to first aid - and lots more</Description>
               </GridItem>
 
               <GridItem>

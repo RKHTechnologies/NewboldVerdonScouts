@@ -1,7 +1,7 @@
 export const CalendarEvents = [
   { 
     title: 'Group AGM', 
-    description: "Annual General Meeting for 2nd 60th",
+    description: "Annual General Meeting for 1st Newbold Verdon",
     start: '2020-10-14',
     time: '20:00',
     className: 'all',

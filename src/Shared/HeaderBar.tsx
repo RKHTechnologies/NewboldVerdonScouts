@@ -192,7 +192,7 @@ const HeaderBar: React.FC<IProps> = ({ stickyHeader }: IProps) => {
     return (
         <HeaderNav stickyHeader={stickyHeader}>
             <HeaderNavContainer>
-                <Logo src={logo} alt="2nd 60th Leicester Scouts" onClick={() => handleNav("")} />
+                <Logo src={logo} alt="1st Newbold Verdon Scouts" onClick={() => handleNav("")} />
                 <BurgerContainer menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><Burger menuOpen={menuOpen} /></BurgerContainer>
                 <NavItemsRightContainer menuOpen={menuOpen}>
                     <HeaderButton onClick={() => handleNav("")}>Home</HeaderButton>

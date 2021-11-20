@@ -139,7 +139,7 @@ const Home: FC = () => {
           <WelcomeContainer>
             <WelcomeTitle>Welcome to <span>1st Newbold Verdon</span></WelcomeTitle>
             <WelcomeText>
-              If you love the great outdoors, learning new skills, meeting new friends, being creative, working as a team and get the opportunity to build in confidence, self esteem and the passion to get more out of life then 2nd 60th Leicester Scout group is the place for you!
+              If you love the great outdoors, learning new skills, meeting new friends, being creative, working as a team and get the opportunity to build in confidence, self esteem and the passion to get more out of life then 1st Newbold Verdon Scout group is the place for you!
               <br /><br />
               Based in the heart of Leicester City for over 100 years we offer young people aged 6 - 18 years the opportunity to try a vast range of exciting indoor and outdoor activities at our very own purpose built premises.
               <br /><br />

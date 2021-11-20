@@ -18,7 +18,7 @@ function App() {
         <ScrollToTop />
         <HeaderBar stickyHeader />
         <Routes>
-          <Route path={`/`} element={<Home />} />
+          <Route path={`${process.env.PUBLIC_URL}`} element={<Home />} />
           {/* <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About} /> */}
           <Route path={`${process.env.PUBLIC_URL}/beavers`} element={<Beavers />} />
           <Route path={`${process.env.PUBLIC_URL}/cubs`} element={<Cubs />} />

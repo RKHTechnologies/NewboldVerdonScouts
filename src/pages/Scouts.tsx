@@ -71,7 +71,7 @@ const Scouts: FC = () => {
               <GridItem>
                 <ScoutsIcon icon={faGlobeEurope} size="2x" />
                 <ScoutsTitle>International Experiences</ScoutsTitle>
-                <Description>At 2nd 60th we like to provide all our scouts an opportunity to meet with scouts from around the world</Description>
+                <Description>At 1st Newbold Verdon we like to provide all our scouts an opportunity to meet with scouts from around the world</Description>
               </GridItem>
 
               <GridItem>
