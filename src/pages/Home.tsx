@@ -140,7 +140,7 @@ const Home: FC = () => {
             <WelcomeText>
               If you love the great outdoors, learning new skills, meeting new friends, being creative, working as a team and get the opportunity to build in confidence, self esteem and the passion to get more out of life then 1st Newbold Verdon Scout group is the place for you!
               <br /><br />
-              Based in the heart of Leicester City for over 100 years we offer young people aged 6 - 18 years the opportunity to try a vast range of exciting indoor and outdoor activities at our very own purpose built premises.
+              Based in the heart of the village of Newbold Verdon In Leicestershire. Young people and those young at heart get the opportunity to enjoy the adventure of Scouting by learning new skills and developing friendships.
               <br /><br />
               We welcome Boys and Girls to fulfil their full potential by offering knowledge and experience delivered by our team of fully trained Volunteer Leaders.
               <br />

@@ -31,34 +31,34 @@ const WhosWho: FC<IProps> = ({ beavers, cubs, scouts, explorers}: IProps) => {
       {beavers ? (  
         <>
           <Profile image='louise' name="Louise Dowell" nickname="King Louie" title="Beaver Leader" accent="Blue" />
-          <Profile image='andy' name="Andy Francis" nickname="Sgt. Tibbs" title="Assistant Beaver Leader" accent="Blue" />
+          {/* <Profile image='andy' name="Andy Francis" nickname="Sgt. Tibbs" title="Assistant Beaver Leader" accent="Blue" /> */}
           <Profile image="jessica" name="Jessica Howard" nickname="Bagheera" title="Assistant Beaver Leader" accent="Blue" />
-          <Profile image='zoe' name="Zoe Gamble" nickname="Kaa" title="Young Leader" accent="Blue" />
+          {/* <Profile image='zoe' name="Zoe Gamble" nickname="Kaa" title="Young Leader" accent="Blue" /> */}
         </>
       ) : null}
 
       {cubs ? (  
         <>
-          <Profile image='susanne' name="Susanne Pickering" nickname="Akela" title="Cub Leader" accent="Green" />
-          <Profile image='chris' name="Chris Ardington" nickname="..." title="Cub Leader" accent="Green" />
-          <Profile image='sarah' name="Sarah Grady" nickname="Raksha" title="Cub Leader" accent="Green" />
-          <Profile image='james' name="James Hawthorne" nickname="..." title="Assistant Cub Leader" accent="Green" />
+          <Profile image='FDL_Green' smallImage name="Steve Dowell" nickname="Skip" title="Cub Leader" accent="Green" />
+          <Profile image='FDL_Green' smallImage name="TBC" nickname="..." title="Cub Leader" accent="Green" />
+          {/* <Profile image='sarah' name="Sarah Grady" nickname="Raksha" title="Cub Leader" accent="Green" />
+          <Profile image='james' name="James Hawthorne" nickname="..." title="Assistant Cub Leader" accent="Green" /> */}
         </>
       ) : null}
 
       {scouts ? (  
         <>
-          <Profile image='FDL_Purple' smallImage name="Steve Dowell" nickname="Skip" title="Scout Leader" accent="Purple" />
-          <Profile image='andyScouts' name="Andy Francis" nickname="Sgt. Tibbs" title="Scout Leader" accent="Purple" />
-          <Profile image='chris' name="Chris Ardington" nickname="..." title="Scout Leader" accent="Purple" />
-          <Profile image='james' name="James Hawthorne" nickname="..." title="Assistant Scout Leader" accent="Purple" />
+          <Profile image='FDL_Purple' smallImage name="TBC" nickname="..." title="Scout Leader" accent="Purple" />
+          <Profile image='FDL_Purple' smallImage name="TBC" nickname="..." title="Scout Leader" accent="Purple" />
+          {/* <Profile image='chris' name="Chris Ardington" nickname="..." title="Scout Leader" accent="Purple" /> */}
+          {/* <Profile image='james' name="James Hawthorne" nickname="..." title="Assistant Scout Leader" accent="Purple" /> */}
         </>
       ) : null}
 
       {explorers ? (  
         <>
-          <Profile image='jacob' name="Jacob Illston" nickname="..." title="Explorer Leader" accent="Red" />
-          <Profile image='rhys' name="Rhys Howard" nickname="..." title="Explorer Leader" accent="Red" />
+          {/* <Profile image='jacob' name="Jacob Illston" nickname="..." title="Explorer Leader" accent="Red" /> */}
+          {/* <Profile image='rhys' name="Rhys Howard" nickname="..." title="Explorer Leader" accent="Red" /> */}
         </>
       ) : null}
     </Container>

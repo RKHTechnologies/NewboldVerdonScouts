@@ -22,9 +22,9 @@ function App() {
           <Route exact path={`${process.env.PUBLIC_URL}/beavers`} component={Beavers} />
           <Route exact path={`${process.env.PUBLIC_URL}/cubs`} component={Cubs} />
           <Route exact path={`${process.env.PUBLIC_URL}/scouts`} component={Scouts} />
-          <Route exact path={`${process.env.PUBLIC_URL}/explorers`} component={Explorers} />
+          {/* <Route exact path={`${process.env.PUBLIC_URL}/explorers`} component={Explorers} /> */}
           <Route exact path={`${process.env.PUBLIC_URL}/ourCalendar`} component={OurCalendar} />
-          <Route exact path={`${process.env.PUBLIC_URL}/documents`} component={Documents} />
+          {/* <Route exact path={`${process.env.PUBLIC_URL}/documents`} component={Documents} /> */}
           <Route component={Error404} />
         </Switch>
       </>
