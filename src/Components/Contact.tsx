@@ -158,7 +158,7 @@ const Contact: React.FC = () => {
       message: data.message,
     }
 
-    emailjs.send('admin_outlook', '260_Contact', returnData, 'user_YDxgyMHIC23AXohprfLhK')
+    emailjs.send('admin_outlook', 'NV_Contact', returnData, 'user_YDxgyMHIC23AXohprfLhK')
       .then((result) => {
           console.log(result.text);
           setOverlayOpen(true);
