@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/newboldverdonscouts/static/css/main.ee836ab7.chunk.css",
-    "main.js": "/newboldverdonscouts/static/js/main.69794687.chunk.js",
-    "main.js.map": "/newboldverdonscouts/static/js/main.69794687.chunk.js.map",
+    "main.js": "/newboldverdonscouts/static/js/main.3ff13d8c.chunk.js",
+    "main.js.map": "/newboldverdonscouts/static/js/main.3ff13d8c.chunk.js.map",
     "runtime-main.js": "/newboldverdonscouts/static/js/runtime-main.5d0acad0.js",
     "runtime-main.js.map": "/newboldverdonscouts/static/js/runtime-main.5d0acad0.js.map",
     "static/css/2.9c8534f5.chunk.css": "/newboldverdonscouts/static/css/2.9c8534f5.chunk.css",
-    "static/js/2.d3111706.chunk.js": "/newboldverdonscouts/static/js/2.d3111706.chunk.js",
-    "static/js/2.d3111706.chunk.js.map": "/newboldverdonscouts/static/js/2.d3111706.chunk.js.map",
+    "static/js/2.774e9199.chunk.js": "/newboldverdonscouts/static/js/2.774e9199.chunk.js",
+    "static/js/2.774e9199.chunk.js.map": "/newboldverdonscouts/static/js/2.774e9199.chunk.js.map",
     "index.html": "/newboldverdonscouts/index.html",
     "static/css/2.9c8534f5.chunk.css.map": "/newboldverdonscouts/static/css/2.9c8534f5.chunk.css.map",
     "static/css/main.ee836ab7.chunk.css.map": "/newboldverdonscouts/static/css/main.ee836ab7.chunk.css.map",
-    "static/js/2.d3111706.chunk.js.LICENSE.txt": "/newboldverdonscouts/static/js/2.d3111706.chunk.js.LICENSE.txt",
+    "static/js/2.774e9199.chunk.js.LICENSE.txt": "/newboldverdonscouts/static/js/2.774e9199.chunk.js.LICENSE.txt",
     "static/media/ActivityInformationAndConsentForm.pdf": "/newboldverdonscouts/static/media/ActivityInformationAndConsentForm.b0c6854b.pdf",
     "static/media/AndyFrancis.e5741182.jpg": "/newboldverdonscouts/static/media/AndyFrancis.e5741182.jpg",
     "static/media/AndyFrancis_Scouts.4ce60a53.jpg": "/newboldverdonscouts/static/media/AndyFrancis_Scouts.4ce60a53.jpg",
     "static/media/Badge_Placement_Beavers.de5a537b.jpeg": "/newboldverdonscouts/static/media/Badge_Placement_Beavers.de5a537b.jpeg",
     "static/media/Badge_Placement_Cubs.8119f302.jpeg": "/newboldverdonscouts/static/media/Badge_Placement_Cubs.8119f302.jpeg",
-    "static/media/Badge_Placement_Explorers.89be0cec.jpeg": "/newboldverdonscouts/static/media/Badge_Placement_Explorers.89be0cec.jpeg",
     "static/media/Badge_Placement_Scouts.f26382cc.jpeg": "/newboldverdonscouts/static/media/Badge_Placement_Scouts.f26382cc.jpeg",
     "static/media/BasicKitList.pdf": "/newboldverdonscouts/static/media/BasicKitList.e74286c7.pdf",
     "static/media/Calendar.80c1eb3a.svg": "/newboldverdonscouts/static/media/Calendar.80c1eb3a.svg",
@@ -31,7 +30,7 @@
     "static/media/JamesHawthorne.897a19a3.jpg": "/newboldverdonscouts/static/media/JamesHawthorne.897a19a3.jpg",
     "static/media/JessicaHoward.617095d2.jpg": "/newboldverdonscouts/static/media/JessicaHoward.617095d2.jpg",
     "static/media/LouiseDowell.f653d883.jpg": "/newboldverdonscouts/static/media/LouiseDowell.f653d883.jpg",
-    "static/media/MembershipForm.pdf": "/newboldverdonscouts/static/media/MembershipForm.f2d3860b.pdf",
+    "static/media/MembershipForm.pdf": "/newboldverdonscouts/static/media/MembershipForm.89ba8389.pdf",
     "static/media/OrderForm.pdf": "/newboldverdonscouts/static/media/OrderForm.875f86e7.pdf",
     "static/media/PDFtest.pdf": "/newboldverdonscouts/static/media/PDFtest.3132cbc8.pdf",
     "static/media/ParentsGuidetoBeavers.pdf": "/newboldverdonscouts/static/media/ParentsGuidetoBeavers.104d68e7.pdf",
@@ -57,7 +56,6 @@
     "static/media/explorer-expedition.599680ec.jpg": "/newboldverdonscouts/static/media/explorer-expedition.599680ec.jpg",
     "static/media/explorer-expedition.8f23206c.jpg": "/newboldverdonscouts/static/media/explorer-expedition.8f23206c.jpg",
     "static/media/explorers-on-rock.f392091e.jpg": "/newboldverdonscouts/static/media/explorers-on-rock.f392091e.jpg",
-    "static/media/explorers.b5000d49.png": "/newboldverdonscouts/static/media/explorers.b5000d49.png",
     "static/media/group-of-scouts-in-helmets.87dabd96.jpg": "/newboldverdonscouts/static/media/group-of-scouts-in-helmets.87dabd96.jpg",
     "static/media/group-of-scouts-in-helmets.b8e01e14.jpg": "/newboldverdonscouts/static/media/group-of-scouts-in-helmets.b8e01e14.jpg",
     "static/media/kayaking.0732d4f5.jpg": "/newboldverdonscouts/static/media/kayaking.0732d4f5.jpg",
@@ -74,8 +72,8 @@
   "entrypoints": [
     "static/js/runtime-main.5d0acad0.js",
     "static/css/2.9c8534f5.chunk.css",
-    "static/js/2.d3111706.chunk.js",
+    "static/js/2.774e9199.chunk.js",
     "static/css/main.ee836ab7.chunk.css",
-    "static/js/main.69794687.chunk.js"
+    "static/js/main.3ff13d8c.chunk.js"
   ]
 }
